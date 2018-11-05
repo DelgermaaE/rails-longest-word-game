@@ -1,0 +1,6 @@
+<%= @letters %>
+<form action="/scores">
+  <input type="text" name="input" required>
+  <input type="hidden" name="letters" value="<%= @letters %>"
+  <input type="submit" value="Check my score!">
+</form>
